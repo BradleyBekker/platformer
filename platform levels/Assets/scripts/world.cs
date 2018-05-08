@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class world : MonoBehaviour {
@@ -19,7 +20,7 @@ public class world : MonoBehaviour {
         text.text = "time:" + deathtimer.ToString();
         if (deathtimer <= 0)
         {
-            Time.timeScale = 0;
+            SceneManager.LoadScene(0);
         }
     }
 }

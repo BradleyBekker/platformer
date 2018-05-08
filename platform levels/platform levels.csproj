@@ -285,7 +285,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\rig.cs" />
+    <Compile Include="Assets\scripts\rig.cs" />
     <Compile Include="Assets\scripts\Time_piece.cs" />
     <Compile Include="Assets\scripts\world.cs" />
   </ItemGroup>
